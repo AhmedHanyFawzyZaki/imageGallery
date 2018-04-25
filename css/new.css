@@ -1,0 +1,200 @@
+
+#dragandrophandler
+{
+    border:2px dotted #0B85A1;
+    width:900px;
+    color:#92AAB0;
+    text-align:left;vertical-align:middle;
+    padding:50px;
+    margin:auto;
+    font-size:22px;
+    clear:both;
+}
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display:inline-block;
+    margin:0px 10px 5px 5px;
+    vertical-align:top;
+}
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0ba1b5; border-radius: 3px;
+}
+.statusbar{
+    border-top:1px solid #A9CCD1;
+    min-height:25px;
+    width:700px;
+    padding:10px 10px 0px 10px;
+    vertical-align:top;
+    margin: 0 auto;
+}
+.statusbar:nth-child(odd){
+    background:#EBEFF0;
+}
+.filename{
+    display:inline-block;
+    vertical-align:top;
+    width:250px;
+}
+.filesize{
+    display:inline-block;
+    vertical-align:top;
+    color:#30693D;
+    width:100px;
+    margin-left:10px;
+    margin-right:5px;
+}
+.abort{
+    background-color:#A8352F;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;display:inline-block;
+    color:#fff;
+    font-family:arial;font-size:13px;font-weight:normal;
+    padding:4px 15px;
+    cursor:pointer;
+    vertical-align:top
+}
+.image_lib{
+    height: 485px;
+    clear: both;
+    border: 2px solid darkgreen;
+    margin:25px;
+    font-size: 18px;
+    font-weight: bold;
+    /*display: table;*/
+    width: 1300px;
+    overflow-y: scroll;
+}
+.empty_image_lib{
+    text-align: center;
+    color: darkgreen;
+    line-height: 25;
+    width: 100%;
+    float: left;
+}
+.thumb_img{
+    width:150px;
+}
+.input-file{
+    font-size: 14px;
+    margin-left: 100px;
+}
+.thumb_img_cont{
+    width: 150px !important;
+    height: 150px !important;
+    overflow: hidden !important;
+    float: left;
+    margin: 5px;
+    border: 1px solid #ccc;
+    line-height: 150px;
+    text-align: center;
+}
+.our_images{
+    width: 97%;
+    float: left;
+    height: 485px;
+    clear: both;
+    border: 2px solid darkgreen;
+    margin:25px;
+    font-size: 18px;
+    font-weight: bold;
+    /*display: table;*/
+}
+.left a{
+    font-size: 14px !important;
+    font-weight: normal;
+    clear: both;
+    float: left;
+    padding: 15px 5px;
+    border-bottom: 1px solid darkgreen;
+    width: 100%;
+}
+.left{
+    width: 13%;
+    float: left;
+    height: 100%;
+    overflow-y: scroll;
+}
+.empty_our_image{
+    color: darkgreen;
+    float: left;
+    line-height: 25;
+    text-align: center;
+    width: 87%;
+}
+.our_images_div{
+    overflow-y: scroll;
+    height: 485px;
+}
+.enlarger{
+    float: left;
+    position: relative;
+    left: 25px;
+    cursor: default;
+    top:3px;
+    font-weight: normal !important;
+}
+.image_container{
+    display: table;
+    float: left;
+    position: relative;
+}
+.top{
+    border: 1px solid #30693d;
+    display: table;
+    margin: 0 25px;
+    padding: 15px;
+    width: 97%;
+}
+.image_container1{
+    float: left;
+    position: relative;
+}
+.padd10{
+    padding: 5px;
+    margin: 0px 10px;
+}
+.close-modal-btn{
+    background: none repeat scroll 0 0 #000 !important;
+    border: 2px solid #fff !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    opacity: 1 !important;
+    padding: 1px 6px 3px !important;
+    position: absolute;
+    /*right: 5px;*/
+    top: -25px !important;
+}
+.new_thumb{
+    border: 1px solid;
+    display: table !important;
+    float: left;
+    left: 50px;
+    position: absolute;
+    top: 100px;
+    z-index: 100;
+    visibility: hidden;
+}
+.edit_img{
+    cursor: default;
+    font-weight: normal !important;
+    right: 8px;
+    position: absolute;
+    top: 3px;
+}
+.margin50{
+    margin: 50px 10px 10px 50px;
+}
+.topMarg50{
+    margin-top: 50px;
+}
